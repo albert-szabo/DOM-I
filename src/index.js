@@ -76,3 +76,7 @@ bottomPs[0].textContent = siteContent["main-content"]["services-content"];
 bottomPs[1].textContent = siteContent["main-content"]["product-content"];
 bottomPs[2].textContent = siteContent["main-content"]["vision-content"];
 
+document.querySelector(".cta .cta-text h1").textContent = siteContent.cta.h1;
+document.querySelector(".cta .cta-text button").textContent = siteContent.cta.button;
+
+
