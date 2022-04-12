@@ -60,3 +60,9 @@ contact.querySelector("p:nth-of-type(1)").textContent = siteContent.contact.addr
 contact.querySelector("p:nth-of-type(2)").textContent = siteContent.contact.phone;
 contact.querySelector("p:nth-of-type(3)").textContent = siteContent.contact.email;
 
+const topContent = document.querySelector(".top-content");
+topContent.children[0].children[0].textContent = siteContent["main-content"]["features-h4"];
+topContent.children[0].children[1].textContent = siteContent["main-content"]["features-content"];
+topContent.children[1].children[0].textContent = siteContent["main-content"]["about-h4"];
+topContent.children[1].children[1].textContent = siteContent["main-content"]["about-content"];
+
